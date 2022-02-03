@@ -1,0 +1,79 @@
+body {
+    margin: 1%;
+    padding: 1%;
+    font-size: 125%;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+img {
+    border: 5px solid burlywood;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+p, h1 {
+    padding: 10px;
+}
+
+img:hover {
+    border: 5px dashed cadetblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+img:nth-child(3n + 3):hover {
+    border: 8px solid salmon;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img:nth-child(3n + 3):hover {
+    filter: grayscale();
+    border: 8px dashed salmon;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div {
+    padding: 10px;
+}
+
+.pix {
+    border: 2px solid seagreen;
+    margin: 50px 0;
+}
+
+header, nav, main, h1, footer{
+	border: 2px solid rosybrown;
+	margin: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li{
+	background-color: orange;
+	padding: 10px;
+	width: 25%;
+	border: 2px solid black;
+	display: inline-block;
+	width: 15%;
+    text-align: center;
+}
+
+.active a{
+    color: orange;
+    background-color: black;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+}
